@@ -1,0 +1,49 @@
+/* Author: Tushardeep Singh */
+
+/* VARIABLE DECLARATION */
+:root {
+  --ADD-FORM-BORDER-BOTTOM: 1px solid lime;
+  --ADD-FORM-TEXT-COLOR: lime;
+  --ADD-FORM-INPUT-BORDER: 2px solid limegreen;
+  --ADD-FORM-BUTTON-BG-COLOR: black;
+  --ADD-FORM-BUTTON-COLOR: lime;
+  --ADD-FORM-INPUT-BG-COLOR: black;
+  --ADD-FORM-INPUT-TEXT-COLOR: lime;
+}
+
+.addForm {
+  border-bottom: var(--ADD-FORM-BORDER-BOTTOM);
+  color: var(--ADD-FORM-TEXT-COLOR);
+  padding: 1rem;
+}
+
+.addForm-label {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 2rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.addForm-input {
+  border-radius: 0.5rem;
+  border: var(--ADD-FORM-INPUT-BORDER);
+  padding: 0.5rem;
+  background-color: var(--ADD-FORM-INPUT-BG-COLOR);
+  color: var(--ADD-FORM-INPUT-TEXT-COLOR);
+  font-size: 1.2rem;
+}
+
+.addForm-btn {
+  background-color: var(--ADD-FORM-BUTTON-BG-COLOR);
+  color: var(--ADD-FORM-BUTTON-COLOR);
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+
+.addForm-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all;
+}

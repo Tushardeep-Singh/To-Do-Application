@@ -1,0 +1,60 @@
+/* Author: Tushardeep Singh */
+
+:root {
+  --ITEM-TEXT-COLOR: lime;
+  --ITEM-BOX-SHADOW-HOVER: 1px 1px 2px green, 0 0 25px green, 0 0 5px green;
+  --ITEM-BUTTONS-BG-COLOR: black;
+  --ITEM-BUTTONS-TEXT-COLOR: lime;
+  --ITEM-INPUT-FIELD-BG-COLOR: black;
+  --ITEM-INPUT-FIELD-TEXT-COLOR: lime;
+}
+
+.item {
+  width: 100%;
+  color: var(--ITEM-TEXT-COLOR);
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.item:hover {
+  cursor: pointer;
+  filter: brightness(1.5);
+  transform: scale(1.01);
+  box-shadow: var(--ITEM-BOX-SHADOW-HOVER);
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  font-size: 1.25rem;
+}
+
+.item-deleteBtn,
+.item-compBtm,
+.item-saveBtn,
+.item-editBtn {
+  background-color: var(--ITEM-BUTTONS-BG-COLOR);
+  color: var(--ITEM-BUTTONS-TEXT-COLOR);
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+
+.item-compBtm {
+  margin-left: auto;
+}
+
+.item-deleteBtn:hover,
+.item-compBtm:hover,
+.item-saveBtn:hover,
+.item-editBtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all;
+}
+
+.item-editInput {
+  background-color: var(--ITEM-INPUT-FIELD-BG-COLOR);
+  color: var(--ITEM-INPUT-FIELD-TEXT-COLOR);
+  font-size: 1.3rem;
+}

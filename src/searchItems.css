@@ -1,0 +1,33 @@
+/* Author: Tushardeep Singh */
+
+:root {
+  --SEARCH-FORM-TEXT-COLOR: lime;
+  --SEARCH-FORM-BORDER-BOTTOM: 1px solid lime;
+  --SEARCH-FORM-INPUT-BORDER: 1px solid lime;
+  --SEARCH-FORM-INPUT-BG-COLOR: black;
+  --SEARCH-FORM-INPUT-TEXT-COLOR: lime;
+}
+
+.searchForm {
+  color: var(--SEARCH-FORM-TEXT-COLOR);
+  border-bottom: var(--SEARCH-FORM-BORDER-BOTTOM);
+  font-size: 2rem;
+}
+
+.searchForm-label {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.searchForm-input {
+  padding: 0.3rem;
+  border: var(--SEARCH-FORM-INPUT-BORDER);
+  border-radius: 0.5rem;
+  background-color: var(--SEARCH-FORM-INPUT-BG-COLOR);
+  color: var(--SEARCH-FORM-INPUT-TEXT-COLOR);
+  font-size: 1.2rem;
+}

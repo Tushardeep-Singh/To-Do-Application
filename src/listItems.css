@@ -1,0 +1,11 @@
+/* Author: Tushardeep Singh */
+
+.listItemsUL {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
