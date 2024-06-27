@@ -16,7 +16,7 @@ This project is a simple yet functional to-do list created using React. It serve
 ## View the Application
 
 You can view the live version of this application on Netlify 
-https://genuine-malasada-65bc79.netlify.app/
+https://tushar-to-do-application.netlify.app/
 
 ## Learning Journey
 
